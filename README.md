@@ -58,7 +58,7 @@ Analyzing this data can be interesting in itself, but it also has a financial in
 
 - This project was inspired by ML-AI couse at UpGrad and IIIT-B
 - References: UpGrad and IIIT-B
-- This project was based on [CNN Assignment]([[https://learn.upgrad.com/course/5811/segment/60414/369869/1115042/5565470](https://learn.upgrad.com/course/5811/segment/60414/372309/1122070/5597470)]).
+- This project was based on [RNN Assignment]([[https://learn.upgrad.com/course/5811/segment/60414/369869/1115042/5565470](https://learn.upgrad.com/course/5811/segment/60414/372309/1122070/5597470)]).
 
 
 ## Contact

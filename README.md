@@ -62,4 +62,4 @@ Analyzing this data can be interesting in itself, but it also has a financial in
 
 
 ## Contact
-Created by [@seetarampandeygit] and [@shambhavin31]  - feel free to contact me!
+Created by [@seetarampandeygit] and [@shambhavin31]  - feel free to contact us!

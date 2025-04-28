@@ -41,17 +41,17 @@ Analyzing this data can be interesting in itself, but it also has a financial in
 
  
 ## Conclusions (Major)
-- Variation in Google stocks is barely visible in weekly, monthly, or quarterly trends.
-- There is a slight increase in variation in the Amazon and IBM stocks, as quarterly variation > monthly variation > weekly variation.
-- Variation in Microsoft stock is visible in all three weekly, monthly, and quarterly trends.
-- Microsoft stocks have a bit of variation in daily trend. At the same time, variation in other stocks is minimal.
-
-- Except for the feature "volume", all other features of a particular company have a high positive correlation.
-- Volumes of different companies have an approx 40% to 50% correlation between them
-
-- For both the cases (1- Single stock predictions and 2- Multiple stock predictions):
+- 1.For both the cases (1- Single stock predictions and 2- Multiple stock predictions):
   - LSTM models were better (<font color = 'Red'> and very close to the actual values <font color = 'Black'>) in predictions with lower 'Mean Squared Error' (MSE).
-  - Sometimes the MSE for LSTM models was almost half of the SimpleRNN models..
+  - The MSE for LSTM models were almost half of the SimpleRNN models..
+    
+- GOOGL: The model captures the overall trend well but lags slightly during some volatile periods (noticeable deviations around peaks and valleys).
+
+- MSFT: Predictions are very close to actuals. Slight under/overshoots exist, but overall the model fits extremely well.
+
+- IBM: Model captures broad trends but struggles a bit during high fluctuations (ups and downs around points 20–80).
+
+- AMZN: The model tracks actual prices very closely, even during volatility.
  
   
 ## Acknowledgements
@@ -62,4 +62,4 @@ Analyzing this data can be interesting in itself, but it also has a financial in
 
 
 ## Contact
-Created by [@seetarampandeygit]  - feel free to contact me!
+Created by [@seetarampandeygit] and [@shambhavin31]  - feel free to contact me!
